@@ -193,7 +193,7 @@ export const destroyScope = (server, a, b, names) => {
 
       const base = await a.findOne({
         where: {
-          [a.primarykeyField]: request.params.aid,
+          [a.primaryKeyField]: request.params.aid,
         },
       });
 

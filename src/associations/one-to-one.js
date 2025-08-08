@@ -108,7 +108,7 @@ export const update = (server, a, b, names) => {
 
       const base = await a.findOne({
         where: {
-          id: request.params.aid,
+          [a.primaryKeyField]: request.params.aid,
         },
       });
 

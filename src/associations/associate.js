@@ -9,7 +9,7 @@ export default (server, a, b, names, options) => {
   defaultConfig = options.defaultConfig;
 
   server.route({
-    method: 'GET',
+    method: 'POST',
     path: `${prefix}/associate/${names.a.singular}/{aid}/${names.b.singular}/{bid}`,
 
     @error

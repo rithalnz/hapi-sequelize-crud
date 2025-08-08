@@ -40,7 +40,7 @@ export const whereMethods = [
   'get',
   'scope',
   'destroy',
-  'destoryScope',
+  'destroyScope',
   'destroyAll',
 ];
 
@@ -48,7 +48,7 @@ export const includeMethods = [
   'list',
   'get',
   'scope',
-  'destoryScope',
+  'destroyScope',
 ];
 
 export const payloadMethods = [
